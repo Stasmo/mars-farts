@@ -46,6 +46,7 @@ export default defineConfig({
       vueTemplate: true,
     }),
   ],
+  base: 'mars-farts',
   define: { 'process.env': {} },
   resolve: {
     alias: {
